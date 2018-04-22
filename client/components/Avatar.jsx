@@ -1,9 +1,11 @@
 import React from 'react';
 
 export default class Avatar extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     let props = this.props;
-    console.log(props);
     return (
       <img className="Avatar"
         src={props.user.avatarUrl}

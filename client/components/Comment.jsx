@@ -2,6 +2,9 @@ import React from 'react';
 import UserInfo from './UserInfo.jsx';
 
 export default class Comment extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     let props = this.props;
     console.log(props);

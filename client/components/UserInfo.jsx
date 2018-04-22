@@ -2,6 +2,9 @@ import React from 'react';
 import Avatar from './Avatar.jsx';
 
 export default class Comment extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     let props = this.props;
     console.log(props);

@@ -1,6 +1,9 @@
 import React from 'react';
 
 export default class Greeting extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   formatName(user) {
     return user.firstName + ' ' + user.lastName;
   }
