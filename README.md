@@ -6,3 +6,9 @@
 ### Setup webpack
 ### Setup react project structure
 ### Add simple example
+
+
+# Quick notes
+## Props
+## State
+## Lifecycle
