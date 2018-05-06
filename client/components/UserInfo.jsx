@@ -7,7 +7,6 @@ export default class Comment extends React.Component {
   }
   render() {
     let props = this.props;
-    console.log(props);
     return (
       <div className="UserInfo">
         <Avatar user={props.user} />

@@ -1,6 +1,5 @@
 import React from 'react';
 import Greeting from './Greeting.jsx';
-import Time from './Time.jsx';
 import Welcome from './Welcome.jsx';
 import Comment from './Comment.jsx';
 
@@ -13,11 +12,10 @@ export default class App extends React.Component {
     return (
       <div>
         <Greeting />
-        <Time />
         <Welcome name="Sara" />
         <Welcome name="Cahal" />
         <Welcome name="Edite" />
-        <Comment author={author} date={new Date().toLocaleTimeString()}/>
+        <Comment author={author} />
       </div>);
   }
 }

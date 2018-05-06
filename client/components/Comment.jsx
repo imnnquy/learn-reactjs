@@ -1,5 +1,6 @@
 import React from 'react';
 import UserInfo from './UserInfo.jsx';
+import Time from './Time.jsx';
 
 export default class Comment extends React.Component {
   constructor(props) {
@@ -7,7 +8,6 @@ export default class Comment extends React.Component {
   }
   render() {
     let props = this.props;
-    console.log(props);
     return (
       <div className="Comment">
         <UserInfo user={props.author} />
@@ -15,7 +15,7 @@ export default class Comment extends React.Component {
           {props.text}
         </div>
         <div className="Comment-date">
-          {(props.date)}
+          <Time />
         </div>
       </div>
     );
